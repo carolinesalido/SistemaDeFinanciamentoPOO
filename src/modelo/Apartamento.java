@@ -45,6 +45,6 @@ public class Apartamento extends Financiamento implements Serializable {
 
     @Override
     public String toString() {
-        return "Financiamento tipo apartamento: Os valores do financiamento são: \n 1 - valor do imóvel " + getValorImovel() + "\n .2 - Prazo: " + getPrazoFinanciamento() + "\n .3 - Taxa de juros anual: " + getTaxaJurosAnual();
+        return "Financiamento tipo apartamento: Os valores do financiamento são: \n 1 - valor do imóvel " + getValorImovel() + "\n 2 - Prazo: " + getPrazoFinanciamento() + "\n 3 - Taxa de juros anual: " + getTaxaJurosAnual();
     }
 }

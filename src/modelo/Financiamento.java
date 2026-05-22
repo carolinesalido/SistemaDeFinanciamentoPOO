@@ -30,7 +30,7 @@ public abstract class Financiamento implements Serializable {
         }
         //metodo toString para imprimir os valores
         public String toString() {
-            return "Os valores do financiamento são: \n 1 - valor do imóvel " + getValorImovel() + "\n .2 - Prazo: " + getPrazoFinanciamento() + "\n .3 - Taxa de juros anual: " + getTaxaJurosAnual();
+            return "Os valores do financiamento são: \n 1 - valor do imóvel " + getValorImovel() + "\n 2 - Prazo: " + getPrazoFinanciamento() + "\n 3 - Taxa de juros anual: " + getTaxaJurosAnual();
         }
     // metodos
 

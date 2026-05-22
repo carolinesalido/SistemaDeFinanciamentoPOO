@@ -44,7 +44,7 @@ public class Main {
         double totalPagamentousuario1 = financiamento1.calculartotalPagamento();
 
         System.out.println(financiamento1);
-        System.out.println("A parcela mensal será de: " + parcelaMensalusuario1 + "e o pagamento total será de: " + totalPagamentousuario1);
+        System.out.println("A parcela mensal será de: " + parcelaMensalusuario1 + " e o pagamento total será de: " + totalPagamentousuario1);
 
         System.out.println("----Financiamento 2---- (Apartamento)");
 
@@ -57,7 +57,7 @@ public class Main {
 
 
         System.out.println(financiamento2);
-        System.out.println("A parcela mensal será de: " + parcelaMensalusuario2 + "e o pagamento total será de: " + totalPagamentousuario2);
+        System.out.println("A parcela mensal será de: " + parcelaMensalusuario2 + " e o pagamento total será de: " + totalPagamentousuario2);
 
         System.out.println("----Financiamento 3---- (Apartamento)");
 
@@ -67,7 +67,7 @@ public class Main {
 
         double parcelaMensalusuario3 = financiamento3.calcularPagamentoMensal();
         double totalPagamentousuario3 = financiamento3.calculartotalPagamento();
-        System.out.println("A parcela mensal será de: " + parcelaMensalusuario3 + "e o pagamento total será de: " + totalPagamentousuario3);
+        System.out.println("A parcela mensal será de: " + parcelaMensalusuario3 + " e o pagamento total será de: " + totalPagamentousuario3);
 
 
         System.out.println(financiamento3);
@@ -83,7 +83,7 @@ public class Main {
 
 
         System.out.println(financiamento4);
-        System.out.println("A parcela mensal será de: " + parcelaMensalusuario4 + "e o pagamento total será de: " + totalPagamentousuario4);
+        System.out.println("A parcela mensal será de: " + parcelaMensalusuario4 + " e o pagamento total será de: " + totalPagamentousuario4);
 
         System.out.println("-----------Resumo dos 4 financiamentos----------- ");
         System.out.println("Financiamento 1: " + financiamento1);

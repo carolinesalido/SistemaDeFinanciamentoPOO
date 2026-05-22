@@ -55,6 +55,6 @@ public class Casa extends Financiamento implements Serializable {
 
     @Override
     public String toString() {
-        return "Financiamento tipo casa: Os valores do financiamento são: \n 1 - valor do imóvel " + getValorImovel() + "\n .2 - Prazo: " + getPrazoFinanciamento() + "\n .3 - Taxa de juros anual: " + getTaxaJurosAnual();
+        return "Financiamento tipo casa: Os valores do financiamento são: \n 1 - valor do imóvel " + getValorImovel() + "\n 2 - Prazo: " + getPrazoFinanciamento() + "\n 3 - Taxa de juros anual: " + getTaxaJurosAnual();
     }
 }

@@ -154,7 +154,7 @@ public class InterfaceUsuario implements metodos_adicionais_entrada {
         int andar = 0;
         Scanner scanner = new Scanner(System.in);
         do {
-            System.out.print("Digite a area construída ");
+            System.out.print("Digite o andar: ");
             try {
                 andar = scanner.nextInt();
             } catch (InputMismatchException e) {
